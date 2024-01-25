@@ -69,7 +69,7 @@
 import axios from "axios";
 
 export default {
-  name: "HelloWorld",
+  name: "LinkScanner",
   data: () => {
     return {
       url: "",

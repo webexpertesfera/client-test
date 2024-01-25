@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <LinkScanner/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import LinkScanner from './components/LinkScanner';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    LinkScanner,
   },
 
   data: () => ({
